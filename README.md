@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ```bash
 sharp (install with ignore-engines)
-uuid4
+uuidv4
 ```
 
 First, run the development server:
