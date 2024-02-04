@@ -1,0 +1,106 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "app/service/backend/api/upload/route";
+exports.ids = ["app/service/backend/api/upload/route"];
+exports.modules = {
+
+/***/ "next/dist/compiled/next-server/app-route.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-route.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/app-route.runtime.dev.js");
+
+/***/ }),
+
+/***/ "sharp":
+/*!************************!*\
+  !*** external "sharp" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("sharp");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "stream/promises":
+/*!**********************************!*\
+  !*** external "stream/promises" ***!
+  \**********************************/
+/***/ ((module) => {
+
+module.exports = require("stream/promises");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute&page=%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute&appPaths=&pagePath=private-next-app-dir%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute.jsx&appDir=%2FUsers%2FB%2FDocuments%2FGitHub%2Fckeditor5-upload-adapter%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2FB%2FDocuments%2FGitHub%2Fckeditor5-upload-adapter&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute&page=%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute&appPaths=&pagePath=private-next-app-dir%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute.jsx&appDir=%2FUsers%2FB%2FDocuments%2FGitHub%2Fckeditor5-upload-adapter%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2FB%2FDocuments%2FGitHub%2Fckeditor5-upload-adapter&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   headerHooks: () => (/* binding */ headerHooks),\n/* harmony export */   originalPathname: () => (/* binding */ originalPathname),\n/* harmony export */   patchFetch: () => (/* binding */ patchFetch),\n/* harmony export */   requestAsyncStorage: () => (/* binding */ requestAsyncStorage),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   serverHooks: () => (/* binding */ serverHooks),\n/* harmony export */   staticGenerationAsyncStorage: () => (/* binding */ staticGenerationAsyncStorage),\n/* harmony export */   staticGenerationBailout: () => (/* binding */ staticGenerationBailout)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/app-route/module.compiled */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-route/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(rsc)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/server/lib/patch-fetch */ \"(rsc)/./node_modules/next/dist/server/lib/patch-fetch.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _Users_B_Documents_GitHub_ckeditor5_upload_adapter_app_service_backend_api_upload_route_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/service/backend/api/upload/route.jsx */ \"(rsc)/./app/service/backend/api/upload/route.jsx\");\n\n\n\n\n// We inject the nextConfigOutput here so that we can use them in the route\n// module.\nconst nextConfigOutput = \"\"\nconst routeModule = new next_dist_server_future_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppRouteRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_ROUTE,\n        page: \"/service/backend/api/upload/route\",\n        pathname: \"/service/backend/api/upload\",\n        filename: \"route\",\n        bundlePath: \"app/service/backend/api/upload/route\"\n    },\n    resolvedPagePath: \"/Users/B/Documents/GitHub/ckeditor5-upload-adapter/app/service/backend/api/upload/route.jsx\",\n    nextConfigOutput,\n    userland: _Users_B_Documents_GitHub_ckeditor5_upload_adapter_app_service_backend_api_upload_route_jsx__WEBPACK_IMPORTED_MODULE_3__\n});\n// Pull out the exports that we need to expose from the module. This should\n// be eliminated when we've moved the other routes to the new format. These\n// are used to hook into the route.\nconst { requestAsyncStorage, staticGenerationAsyncStorage, serverHooks, headerHooks, staticGenerationBailout } = routeModule;\nconst originalPathname = \"/service/backend/api/upload/route\";\nfunction patchFetch() {\n    return (0,next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__.patchFetch)({\n        serverHooks,\n        staticGenerationAsyncStorage\n    });\n}\n\n\n//# sourceMappingURL=app-route.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZzZXJ2aWNlJTJGYmFja2VuZCUyRmFwaSUyRnVwbG9hZCUyRnJvdXRlJnBhZ2U9JTJGc2VydmljZSUyRmJhY2tlbmQlMkZhcGklMkZ1cGxvYWQlMkZyb3V0ZSZhcHBQYXRocz0mcGFnZVBhdGg9cHJpdmF0ZS1uZXh0LWFwcC1kaXIlMkZzZXJ2aWNlJTJGYmFja2VuZCUyRmFwaSUyRnVwbG9hZCUyRnJvdXRlLmpzeCZhcHBEaXI9JTJGVXNlcnMlMkZCJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGY2tlZGl0b3I1LXVwbG9hZC1hZGFwdGVyJTJGYXBwJnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMmcm9vdERpcj0lMkZVc2VycyUyRkIlMkZEb2N1bWVudHMlMkZHaXRIdWIlMkZja2VkaXRvcjUtdXBsb2FkLWFkYXB0ZXImaXNEZXY9dHJ1ZSZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvbiZiYXNlUGF0aD0mYXNzZXRQcmVmaXg9Jm5leHRDb25maWdPdXRwdXQ9JnByZWZlcnJlZFJlZ2lvbj0mbWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQXNHO0FBQ3ZDO0FBQ2M7QUFDMkM7QUFDeEg7QUFDQTtBQUNBO0FBQ0Esd0JBQXdCLGdIQUFtQjtBQUMzQztBQUNBLGNBQWMseUVBQVM7QUFDdkI7QUFDQTtBQUNBO0FBQ0E7QUFDQSxLQUFLO0FBQ0w7QUFDQTtBQUNBLFlBQVk7QUFDWixDQUFDO0FBQ0Q7QUFDQTtBQUNBO0FBQ0EsUUFBUSx1R0FBdUc7QUFDL0c7QUFDQTtBQUNBLFdBQVcsNEVBQVc7QUFDdEI7QUFDQTtBQUNBLEtBQUs7QUFDTDtBQUM2Sjs7QUFFN0oiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9ja2VkaXRvcjUtdXBsb2FkLWFkYXB0ZXIvP2I2YTgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQXBwUm91dGVSb3V0ZU1vZHVsZSB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1tb2R1bGVzL2FwcC1yb3V0ZS9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1raW5kXCI7XG5pbXBvcnQgeyBwYXRjaEZldGNoIGFzIF9wYXRjaEZldGNoIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvbGliL3BhdGNoLWZldGNoXCI7XG5pbXBvcnQgKiBhcyB1c2VybGFuZCBmcm9tIFwiL1VzZXJzL0IvRG9jdW1lbnRzL0dpdEh1Yi9ja2VkaXRvcjUtdXBsb2FkLWFkYXB0ZXIvYXBwL3NlcnZpY2UvYmFja2VuZC9hcGkvdXBsb2FkL3JvdXRlLmpzeFwiO1xuLy8gV2UgaW5qZWN0IHRoZSBuZXh0Q29uZmlnT3V0cHV0IGhlcmUgc28gdGhhdCB3ZSBjYW4gdXNlIHRoZW0gaW4gdGhlIHJvdXRlXG4vLyBtb2R1bGUuXG5jb25zdCBuZXh0Q29uZmlnT3V0cHV0ID0gXCJcIlxuY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgQXBwUm91dGVSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuQVBQX1JPVVRFLFxuICAgICAgICBwYWdlOiBcIi9zZXJ2aWNlL2JhY2tlbmQvYXBpL3VwbG9hZC9yb3V0ZVwiLFxuICAgICAgICBwYXRobmFtZTogXCIvc2VydmljZS9iYWNrZW5kL2FwaS91cGxvYWRcIixcbiAgICAgICAgZmlsZW5hbWU6IFwicm91dGVcIixcbiAgICAgICAgYnVuZGxlUGF0aDogXCJhcHAvc2VydmljZS9iYWNrZW5kL2FwaS91cGxvYWQvcm91dGVcIlxuICAgIH0sXG4gICAgcmVzb2x2ZWRQYWdlUGF0aDogXCIvVXNlcnMvQi9Eb2N1bWVudHMvR2l0SHViL2NrZWRpdG9yNS11cGxvYWQtYWRhcHRlci9hcHAvc2VydmljZS9iYWNrZW5kL2FwaS91cGxvYWQvcm91dGUuanN4XCIsXG4gICAgbmV4dENvbmZpZ091dHB1dCxcbiAgICB1c2VybGFuZFxufSk7XG4vLyBQdWxsIG91dCB0aGUgZXhwb3J0cyB0aGF0IHdlIG5lZWQgdG8gZXhwb3NlIGZyb20gdGhlIG1vZHVsZS4gVGhpcyBzaG91bGRcbi8vIGJlIGVsaW1pbmF0ZWQgd2hlbiB3ZSd2ZSBtb3ZlZCB0aGUgb3RoZXIgcm91dGVzIHRvIHRoZSBuZXcgZm9ybWF0LiBUaGVzZVxuLy8gYXJlIHVzZWQgdG8gaG9vayBpbnRvIHRoZSByb3V0ZS5cbmNvbnN0IHsgcmVxdWVzdEFzeW5jU3RvcmFnZSwgc3RhdGljR2VuZXJhdGlvbkFzeW5jU3RvcmFnZSwgc2VydmVySG9va3MsIGhlYWRlckhvb2tzLCBzdGF0aWNHZW5lcmF0aW9uQmFpbG91dCB9ID0gcm91dGVNb2R1bGU7XG5jb25zdCBvcmlnaW5hbFBhdGhuYW1lID0gXCIvc2VydmljZS9iYWNrZW5kL2FwaS91cGxvYWQvcm91dGVcIjtcbmZ1bmN0aW9uIHBhdGNoRmV0Y2goKSB7XG4gICAgcmV0dXJuIF9wYXRjaEZldGNoKHtcbiAgICAgICAgc2VydmVySG9va3MsXG4gICAgICAgIHN0YXRpY0dlbmVyYXRpb25Bc3luY1N0b3JhZ2VcbiAgICB9KTtcbn1cbmV4cG9ydCB7IHJvdXRlTW9kdWxlLCByZXF1ZXN0QXN5bmNTdG9yYWdlLCBzdGF0aWNHZW5lcmF0aW9uQXN5bmNTdG9yYWdlLCBzZXJ2ZXJIb29rcywgaGVhZGVySG9va3MsIHN0YXRpY0dlbmVyYXRpb25CYWlsb3V0LCBvcmlnaW5hbFBhdGhuYW1lLCBwYXRjaEZldGNoLCAgfTtcblxuLy8jIHNvdXJjZU1hcHBpbmdVUkw9YXBwLXJvdXRlLmpzLm1hcCJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute&page=%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute&appPaths=&pagePath=private-next-app-dir%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute.jsx&appDir=%2FUsers%2FB%2FDocuments%2FGitHub%2Fckeditor5-upload-adapter%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2FB%2FDocuments%2FGitHub%2Fckeditor5-upload-adapter&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(rsc)/./app/service/backend/api/upload/route.jsx":
+/*!**************************************************!*\
+  !*** ./app/service/backend/api/upload/route.jsx ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   POST: () => (/* binding */ POST)\n/* harmony export */ });\n/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fs */ \"fs\");\n/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fs__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var stream_promises__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! stream/promises */ \"stream/promises\");\n/* harmony import */ var stream_promises__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(stream_promises__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/server/web/exports/next-response */ \"(rsc)/./node_modules/next/dist/server/web/exports/next-response.js\");\n/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! uuid */ \"(rsc)/./node_modules/uuid/dist/esm-node/v4.js\");\n/* harmony import */ var sharp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! sharp */ \"sharp\");\n/* harmony import */ var sharp__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(sharp__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! path */ \"path\");\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\nconst POST = async (request)=>{\n    try {\n        const formData = await request.formData();\n        const file = formData.get(\"file\");\n        if (!file) {\n            return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_2__[\"default\"].json({\n                error: \"No files received.\"\n            }, {\n                status: 400\n            });\n        }\n        const filename = (0,uuid__WEBPACK_IMPORTED_MODULE_5__[\"default\"])() + \".\" + \"webp\";\n        console.log(\"Filename: \", filename);\n        const createPath = path__WEBPACK_IMPORTED_MODULE_4___default().join(process.cwd(), \"public/upload\");\n        !(0,fs__WEBPACK_IMPORTED_MODULE_0__.existsSync)(createPath) ? (0,fs__WEBPACK_IMPORTED_MODULE_0__.mkdirSync)(createPath) : null;\n        const writeStream = (0,fs__WEBPACK_IMPORTED_MODULE_0__.createWriteStream)(path__WEBPACK_IMPORTED_MODULE_4___default().join(process.cwd(), \"public/upload/\" + filename));\n        await (0,stream_promises__WEBPACK_IMPORTED_MODULE_1__.pipeline)(file.stream(), sharp__WEBPACK_IMPORTED_MODULE_3___default()().resize(1200, 675).webp({\n            quality: 75\n        }), writeStream);\n        const uploadPath = \"/upload/\" + filename;\n        return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_2__[\"default\"].json({\n            Message: \"Success\",\n            status: 201,\n            location: uploadPath\n        });\n    } catch (error) {\n        console.log(\"Error occurred \", error);\n        return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_2__[\"default\"].json({\n            Message: \"Failed\",\n            status: 500\n        });\n    }\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvc2VydmljZS9iYWNrZW5kL2FwaS91cGxvYWQvcm91dGUuanN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQThEO0FBQ25CO0FBQ0E7QUFDUDtBQUNWO0FBQ0Y7QUFFakIsTUFBTVMsT0FBTyxPQUFPQztJQUN6QixJQUFJO1FBQ0YsTUFBTUMsV0FBVyxNQUFNRCxRQUFRQyxRQUFRO1FBQ3ZDLE1BQU1DLE9BQU9ELFNBQVNFLEdBQUcsQ0FBQztRQUUxQixJQUFJLENBQUNELE1BQU07WUFDVCxPQUFPUixrRkFBWUEsQ0FBQ1UsSUFBSSxDQUN0QjtnQkFBRUMsT0FBTztZQUFxQixHQUM5QjtnQkFBRUMsUUFBUTtZQUFJO1FBRWxCO1FBRUEsTUFBTUMsV0FBV1gsZ0RBQU1BLEtBQUssTUFBTTtRQUVsQ1ksUUFBUUMsR0FBRyxDQUFDLGNBQWNGO1FBRTFCLE1BQU1HLGFBQWFaLGdEQUFTLENBQUNjLFFBQVFDLEdBQUcsSUFBSTtRQUM1QyxDQUFDdEIsOENBQVVBLENBQUNtQixjQUFjbEIsNkNBQVNBLENBQUNrQixjQUFjO1FBRWxELE1BQU1JLGNBQWN4QixxREFBaUJBLENBQ25DUSxnREFBUyxDQUFDYyxRQUFRQyxHQUFHLElBQUksbUJBQW1CTjtRQUc5QyxNQUFNZCx5REFBUUEsQ0FDWlMsS0FBS2EsTUFBTSxJQUNYbEIsNENBQUtBLEdBQUdtQixNQUFNLENBQUMsTUFBTSxLQUFLQyxJQUFJLENBQUM7WUFBRUMsU0FBUztRQUFHLElBQzdDSjtRQUdGLE1BQU1LLGFBQWEsYUFBYVo7UUFFaEMsT0FBT2Isa0ZBQVlBLENBQUNVLElBQUksQ0FBQztZQUN2QmdCLFNBQVM7WUFDVGQsUUFBUTtZQUNSZSxVQUFVRjtRQUNaO0lBQ0YsRUFBRSxPQUFPZCxPQUFPO1FBQ2RHLFFBQVFDLEdBQUcsQ0FBQyxtQkFBbUJKO1FBQy9CLE9BQU9YLGtGQUFZQSxDQUFDVSxJQUFJLENBQUM7WUFBRWdCLFNBQVM7WUFBVWQsUUFBUTtRQUFJO0lBQzVEO0FBQ0YsRUFBRSIsInNvdXJjZXMiOlsid2VicGFjazovL2NrZWRpdG9yNS11cGxvYWQtYWRhcHRlci8uL2FwcC9zZXJ2aWNlL2JhY2tlbmQvYXBpL3VwbG9hZC9yb3V0ZS5qc3g/ZmY4YiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjcmVhdGVXcml0ZVN0cmVhbSwgZXhpc3RzU3luYywgbWtkaXJTeW5jIH0gZnJvbSBcImZzXCI7XG5pbXBvcnQgeyBwaXBlbGluZSB9IGZyb20gXCJzdHJlYW0vcHJvbWlzZXNcIjtcbmltcG9ydCB7IE5leHRSZXNwb25zZSB9IGZyb20gXCJuZXh0L3NlcnZlclwiO1xuaW1wb3J0IHsgdjQgYXMgdXVpZHY0IH0gZnJvbSBcInV1aWRcIjtcbmltcG9ydCBzaGFycCBmcm9tIFwic2hhcnBcIjtcbmltcG9ydCBwYXRoIGZyb20gXCJwYXRoXCI7XG5cbmV4cG9ydCBjb25zdCBQT1NUID0gYXN5bmMgKHJlcXVlc3QpID0+IHtcbiAgdHJ5IHtcbiAgICBjb25zdCBmb3JtRGF0YSA9IGF3YWl0IHJlcXVlc3QuZm9ybURhdGEoKTtcbiAgICBjb25zdCBmaWxlID0gZm9ybURhdGEuZ2V0KFwiZmlsZVwiKTtcblxuICAgIGlmICghZmlsZSkge1xuICAgICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKFxuICAgICAgICB7IGVycm9yOiBcIk5vIGZpbGVzIHJlY2VpdmVkLlwiIH0sXG4gICAgICAgIHsgc3RhdHVzOiA0MDAgfVxuICAgICAgKTtcbiAgICB9XG5cbiAgICBjb25zdCBmaWxlbmFtZSA9IHV1aWR2NCgpICsgXCIuXCIgKyBcIndlYnBcIjtcblxuICAgIGNvbnNvbGUubG9nKFwiRmlsZW5hbWU6IFwiLCBmaWxlbmFtZSk7XG5cbiAgICBjb25zdCBjcmVhdGVQYXRoID0gcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksIFwicHVibGljL3VwbG9hZFwiKTtcbiAgICAhZXhpc3RzU3luYyhjcmVhdGVQYXRoKSA/IG1rZGlyU3luYyhjcmVhdGVQYXRoKSA6IG51bGw7XG5cbiAgICBjb25zdCB3cml0ZVN0cmVhbSA9IGNyZWF0ZVdyaXRlU3RyZWFtKFxuICAgICAgcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksIFwicHVibGljL3VwbG9hZC9cIiArIGZpbGVuYW1lKVxuICAgICk7XG5cbiAgICBhd2FpdCBwaXBlbGluZShcbiAgICAgIGZpbGUuc3RyZWFtKCksXG4gICAgICBzaGFycCgpLnJlc2l6ZSgxMjAwLCA2NzUpLndlYnAoeyBxdWFsaXR5OiA3NSB9KSxcbiAgICAgIHdyaXRlU3RyZWFtXG4gICAgKTtcblxuICAgIGNvbnN0IHVwbG9hZFBhdGggPSBcIi91cGxvYWQvXCIgKyBmaWxlbmFtZTtcblxuICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7XG4gICAgICBNZXNzYWdlOiBcIlN1Y2Nlc3NcIixcbiAgICAgIHN0YXR1czogMjAxLFxuICAgICAgbG9jYXRpb246IHVwbG9hZFBhdGgsXG4gICAgfSk7XG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgY29uc29sZS5sb2coXCJFcnJvciBvY2N1cnJlZCBcIiwgZXJyb3IpO1xuICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7IE1lc3NhZ2U6IFwiRmFpbGVkXCIsIHN0YXR1czogNTAwIH0pO1xuICB9XG59O1xuIl0sIm5hbWVzIjpbImNyZWF0ZVdyaXRlU3RyZWFtIiwiZXhpc3RzU3luYyIsIm1rZGlyU3luYyIsInBpcGVsaW5lIiwiTmV4dFJlc3BvbnNlIiwidjQiLCJ1dWlkdjQiLCJzaGFycCIsInBhdGgiLCJQT1NUIiwicmVxdWVzdCIsImZvcm1EYXRhIiwiZmlsZSIsImdldCIsImpzb24iLCJlcnJvciIsInN0YXR1cyIsImZpbGVuYW1lIiwiY29uc29sZSIsImxvZyIsImNyZWF0ZVBhdGgiLCJqb2luIiwicHJvY2VzcyIsImN3ZCIsIndyaXRlU3RyZWFtIiwic3RyZWFtIiwicmVzaXplIiwid2VicCIsInF1YWxpdHkiLCJ1cGxvYWRQYXRoIiwiTWVzc2FnZSIsImxvY2F0aW9uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./app/service/backend/api/upload/route.jsx\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../../../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/uuid"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute&page=%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute&appPaths=&pagePath=private-next-app-dir%2Fservice%2Fbackend%2Fapi%2Fupload%2Froute.jsx&appDir=%2FUsers%2FB%2FDocuments%2FGitHub%2Fckeditor5-upload-adapter%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2FB%2FDocuments%2FGitHub%2Fckeditor5-upload-adapter&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();
