@@ -1,3 +1,11 @@
+<span>
+  <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg"/>
+  </a>
+</span>
+
+# nextjs-upload-adapter
+
 ![Next JS Upload Adapter Cover](https://arg0wak.github.io/gist/images/nextjs-upload-adapter/VJG6RZFRQTBBABE.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
